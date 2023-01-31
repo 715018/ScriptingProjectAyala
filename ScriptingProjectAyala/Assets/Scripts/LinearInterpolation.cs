@@ -14,7 +14,7 @@ public class LinearInterpolation : MonoBehaviour
 
     // Here result = (4, 5, 6)
     Vector3 result = Vector3.Lerp(from, to, 0.75f);
-    //Vector3 works in the same way as Mathf.Lerp but the ï¿½fromï¿½ and ï¿½toï¿½ values are of type Color and Vector3 respectively
+    //Vector3 works in the same way as Mathf.Lerp but the ‘from’ and ‘to’ values are of type Color and Vector3 respectively
 
     // Start is called before the first frame update
     void Start()
@@ -31,5 +31,6 @@ public class LinearInterpolation : MonoBehaviour
 
         //The difference between these 2 lines of code is in the change to intensity, one would happen per second and the other per frame
     }
+    
 */
 }
