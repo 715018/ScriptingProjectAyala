@@ -1,4 +1,4 @@
-. using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,5 +32,5 @@ public class LinearInterpolation : MonoBehaviour
         //The difference between these 2 lines of code is in the change to intensity, one would happen per second and the other per frame
     }
     
-*/
+ */
 }
